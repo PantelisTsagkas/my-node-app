@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1742898568552" clover="3.2.0">
-  <project timestamp="1742898568552" name="All files">
-    <metrics statements="11" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1" elements="14" coveredelements="11" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+<coverage generated="1742899981283" clover="3.2.0">
+  <project timestamp="1742899981284" name="All files">
+    <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1" elements="18" coveredelements="14" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="app.js" path="/home/pantelist/bpp/my-node-app/app.js">
-      <metrics statements="11" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="4" type="stmt"/>
-      <line num="95" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="96" count="0" type="stmt"/>
-      <line num="97" count="0" type="stmt"/>
-      <line num="100" count="1" type="stmt"/>
+      <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="24" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

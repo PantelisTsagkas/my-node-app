@@ -9,7 +9,7 @@
     "coverage": "jest --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "PantelisTsagkas",
   "license": "ISC",
   "description": "",
   "dependencies": {
