@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1742901755865" clover="3.2.0">
-  <project timestamp="1742901755865" name="All files">
-    <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1" elements="18" coveredelements="14" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
+<coverage generated="1742904275637" clover="3.2.0">
+  <project timestamp="1742904275638" name="All files">
+    <metrics statements="14" coveredstatements="12" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1" elements="20" coveredelements="16" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="app.js" path="/home/pantelist/bpp/my-node-app/app.js">
-      <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <metrics statements="14" coveredstatements="12" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1"/>
       <line num="1" count="2" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
       <line num="3" count="2" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
+      <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="7" count="2" type="stmt"/>
       <line num="8" count="2" type="stmt"/>
       <line num="9" count="2" type="stmt"/>
