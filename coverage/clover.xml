@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1742894163271" clover="3.2.0">
-  <project timestamp="1742894163272" name="All files">
+<coverage generated="1742895791655" clover="3.2.0">
+  <project timestamp="1742895791655" name="All files">
     <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0" elements="8" coveredelements="6" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
     <file name="app.js" path="/home/pantelist/bpp/my-node-app/app.js">
       <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
