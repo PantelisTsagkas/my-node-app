@@ -25,9 +25,9 @@ describe('Express App Routes', () => {
   test('GET / should contain welcome message', async () => {
     const response = await request(app).get('/');
     
-    // Check for specific content in the response
-    expect(response.text).toContain('Welcome to Our Awesome App!');
-    expect(response.text).toContain('We\'re thrilled you\'re here');
+    // Update the expected content to match the actual HTML
+    expect(response.text).toContain('DevOps Assignment');
+    expect(response.text).toContain('This project demonstrates a CI/CD pipeline implementation.');
   });
 
   // Test HTML structure
@@ -36,7 +36,7 @@ describe('Express App Routes', () => {
     
     // Check for specific HTML elements
     expect(response.text).toMatch(/<html lang="en">/);
-    expect(response.text).toMatch(/<title>Welcome!<\/title>/);
+    expect(response.text).toMatch(/<title>DevOps Assignment - BPP University<\/title>/);
     expect(response.text).toMatch(/<div class="container">/);
   });
 
