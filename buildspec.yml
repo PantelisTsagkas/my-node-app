@@ -1,0 +1,35 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo Installing dependencies
+      - npm install
+  
+  pre_build:
+    commands:
+      - echo Running tests
+      - npm test
+  
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Generating production build
+      # Add any build steps if needed (e.g., transpiling, bundling)
+  
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      # Create a deployment artifact
+      - zip -r deploy.zip . -x '*.git*' 'node_modules/.cache*' 'tests*'
+
+artifacts:
+  files:
+    - deploy.zip
+  name: myapp-$(date +%Y-%m-%d)
+
+cache:
+  paths:
+    - 'node_modules/**/*'
