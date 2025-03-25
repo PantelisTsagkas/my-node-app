@@ -49,5 +49,11 @@ app.get("/", (req, res) => {
   });
 
 
-app.listen(port);
-console.log(`App running on http://localhost:${port}`);
+// Only listen if this file is being run directly (not imported for testing)
+if (require.main === module) {
+    app.listen(port);
+    console.log(`App running on http://localhost:${port}`);
+  }
+  
+  // Export the app for testing
+  module.exports = app;

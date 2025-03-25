@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node app.js",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
